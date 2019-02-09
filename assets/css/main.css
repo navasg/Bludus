@@ -526,5 +526,9 @@ footer ul{
     max-width: inherit;
   }
 
+    .map-footer {
+
+    width: 28rem;
+    }
  
 }
