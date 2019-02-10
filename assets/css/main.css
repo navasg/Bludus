@@ -251,6 +251,7 @@ header .cta-green {
 
 .about {
   padding-top: 0!important;
+  position: relative;
 }
 
 .cta-about {
@@ -300,10 +301,21 @@ header .cta-green {
   box-shadow: 13px 13px 70px -2px rgba(111, 183, 209, 0.21);
 }
 
+.mobile-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-about-1, .bg-about-2 {
+  position: absolute;
+  left: 0;
+  height: 100%!important; 
+}
+
 .link-mobile {
   position: absolute;
     left: 3.2rem;
-    bottom: 109px;
+    bottom: 10.9rem;
     font-size: 1.5rem;
     /* padding: 10px 1px; */
     background-color: #49c37a;
@@ -451,7 +463,7 @@ header .cta-green {
   color: #6a87a5;
 }
 
-.bg-stories, .bg-stories-2 {
+.bg-stories, .bg-stories-2, .bg-about-1, .bg-about-2 {
   position: absolute;
   right: 0;
   top: 0;
@@ -674,6 +686,13 @@ footer li a:hover {
     height: auto;
   }
 
+  /* ABOUT */
+
+  .img-about {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   /* /STORIES */
 
   .card-stories {
@@ -704,4 +723,19 @@ footer li a:hover {
     width: 28rem;
     }
  
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  html {
+    font-size: 9px;
+  }
+
+  /* Daashboard */
+  .dashboard {
+    height: auto;
+  }
+  
+  .box-dash {
+    transform: initial;
+  }
 }
