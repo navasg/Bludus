@@ -1,7 +1,7 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
 	tab = $('.tabs h3 a');
 
-	tab.on('click', function(event) {
+	tab.on('click', function (event) {
 		event.preventDefault();
 		tab.removeClass('active');
 		$(this).addClass('active');
@@ -10,4 +10,10 @@ jQuery(document).ready(function($) {
 		$('div[id$="tab-content"]').removeClass('active');
 		$(tab_content).addClass('active');
 	});
+});
+
+
+$(".close-alert").click(function (e) {
+	$(this).parent().remove();
+	e.preventDefault();
 });

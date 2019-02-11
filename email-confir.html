@@ -62,21 +62,21 @@
       </div>
     </nav>
   </header>
-  <section class="login">
+  <section class="confirm-email">
     <div class="form-wrap">
       <div class="tabs">
-        <h3 class="signup-tab"><a class="active" href="#signup-tab-content">SIGN UP</a></h3>
-        <h3 class="login-tab"><a href="#login-tab-content">LOGIN</a></h3>
+        <h3>CONFIRM EMAIL</h3>
       </div>
       <!--.tabs-->
 
       <div class="tabs-content">
         <div id="signup-tab-content" class="active">
           <form class="signup-form" action="" method="post">
-            <input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
-            <input type="text" class="input" id="user_name" autocomplete="off" placeholder="Username">
-            <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
-            <input type="submit" class="button" value="Sign Up">
+            <div class="confirm">
+              <input style="margin: 0;" type="email" class="input" id="user_email" autocomplete="off" placeholder="Code Confirmation">
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </div>
+            <input type="submit" class="button" value="Send">
           </form>
           <!--.login-form-->
           <div class="help-text">
@@ -86,39 +86,13 @@
           <!--.help-text-->
         </div>
         <!--.signup-tab-content-->
-
-        <div id="login-tab-content">
-          <form class="login-form" action="" method="post">
-            <input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email or Username">
-            <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
-            <input type="checkbox" class="checkbox" id="remember_me">
-            <label for="remember_me">Remember me</label>
-
-            <input type="submit" class="button" value="Login">
-          </form>
-          <!--.login-form-->
-          <div class="help-text">
-            <p><a href="#">Forget your password?</a></p>
-          </div>
-          <!--.help-text-->
-        </div>
-        <!--.login-tab-content-->
       </div>
-      <!--.tabs-content-->
-    </div>
-    <!--.form-wrap-->
-    <img class="particle-1" src="assets/img/bg-s3-2.png" alt="">
-    <img class="particle-2" src="assets/img/bg-s3-3.png" alt="">
-    <img class="particle-3" src="assets/img/bg-s3-4.png" alt="">
-    <img class="particle-4" src="assets/img/bg-s3-1.png" alt="">
-    <div class="alert alert-danger" role="alert">
-      <button type="button" class="close-alert">×</button>
-      <p><i class="fa fa-exclamation" aria-hidden="true"></i>
-        Email error </p>
-    </div>
+      <!--.form-wrap-->
+      <img class="particle-1" src="assets/img/bg-s3-2.png" alt="">
+      <img class="particle-2" src="assets/img/bg-s3-3.png" alt="">
+      <img class="particle-3" src="assets/img/bg-s3-4.png" alt="">
+      <img class="particle-4" src="assets/img/bg-s3-1.png" alt="">
   </section>
-
-
 
 
   <footer class="padding-top-bottom">
