@@ -806,12 +806,15 @@ footer li a:hover {
 
     width: 28rem;
     }
- 
+
+    .form-wrap {
+      width: auto!important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
   html {
-    font-size: 9px;
+    font-size: 8px;
   }
 
   .three-section {
