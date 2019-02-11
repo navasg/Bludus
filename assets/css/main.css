@@ -170,6 +170,7 @@ header .cta-orange {
   width: 100%;
   display: flex;
   justify-content: center;
+  display: none;
 }
 
 .logo-dash {
@@ -533,7 +534,7 @@ header .cta-orange {
   color: #6a87a5;
 }
 
-.the-world span {
+.the-world a {
   color: #ff6600;
 
 }
@@ -700,9 +701,6 @@ footer li a:hover {
 
 /* MOBILE */
 @media screen and (min-width: 0px) and (max-width: 500px) {
-  .dashboard {
-    display: none;
-  }
 
   .three-section {
     padding-top: 5rem;
@@ -723,6 +721,10 @@ footer li a:hover {
   }
   .dashboard-2 {
     display: none;
+  }
+
+  .dashboard {
+    display: initial;
   }
   .sign-up-resp {
     display: inherit;
@@ -817,6 +819,11 @@ footer li a:hover {
   }
   .dashboard-2 {
     display: none;
+  }
+
+
+  .dashboard {
+    display: initial;
   }
   .sign-up-resp {
     display: inherit;
